@@ -7,7 +7,8 @@ module.exports = {
     // change entry point accordingly to theme and lesson
     // entry: './src/app.ts',
     // entry: './src/es6-and-typescript/arrow-functions-and-implicit-returns/index.ts',
-    entry: './src/es6-and-typescript/default-function-parameters/index.ts',
+    // entry: './src/es6-and-typescript/default-function-parameters/index.ts',
+    entry: './src/es6-and-typescript/object-literal-improvement/index.ts',
 
     module: {
         rules: [
