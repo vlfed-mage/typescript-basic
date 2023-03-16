@@ -4,10 +4,10 @@ const mappedPizzas = pizzas.map(pizza => pizza.name.toUpperCase());
 
 console.log(mappedPizzas);
 
-const pizza = {
-    name: 'Blazing Inferno',
-    getName: () => this.name;
-};
+// const pizza = {
+//     name: 'Blazing Inferno',
+//     getName: () => this.name;
+// };
 
 const pizza2 = {
     name: 'Pepperoni',
@@ -21,6 +21,6 @@ const pizza3 = {
     }, // Property 'name' does not exist on type 'typeof globalThis'.
 };
 
-console.log(pizza.getName()) // error: Property 'name' does not exist on type 'typeof globalThis'.
+// console.log(pizza.getName()) // error: Property 'name' does not exist on type 'typeof globalThis'.
 console.log(pizza2.getName()); // Pepperoni
 console.log(pizza3.getName()); // Diablo
