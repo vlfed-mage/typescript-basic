@@ -3,7 +3,11 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     mode: 'development',
-    entry: './src/app.ts',
+
+    // change entry point accordingly to theme and lesson
+    // entry: './src/app.ts',
+    entry: './src/es6-and-typescript/arrow-functions-and-implicit-returns/index.ts',
+
     module: {
         rules: [
             {
