@@ -10,12 +10,20 @@
 
 // decision is in union literal types
 
-let pizzaSize: 'small' | 'medium' | 'large' = 'large';
+// let pizzaSize: 'small' | 'medium' | 'large' = 'large';
+//
+// const selectPizza = (pizza: 'small' | 'medium' | 'large'): void => {
+//     pizzaSize = pizza;
+// };
 
-const selectPizza = (pizza: 'small' | 'medium' | 'large'): void => {
+// or
+
+let pizzaSize: 1 | 2 | 3 = 3;
+
+const selectPizza = (pizza: 1 | 2 | 3): void => {
     pizzaSize = pizza;
 };
 
 console.log(pizzaSize);
-selectPizza('medium');
+selectPizza(1);
 console.log(pizzaSize);
