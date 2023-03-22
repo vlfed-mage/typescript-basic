@@ -1,4 +1,3 @@
-// Setters and Getters (Accessors)
 class Sizes {
     constructor(public sizes: string[]) {}
 
