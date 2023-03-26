@@ -1,4 +1,4 @@
-class Sizes {
+class Sizes0 {
     constructor(public sizes: string[]) {}
 
     set availableSizes(sizes: string[]) {
@@ -12,7 +12,7 @@ class Sizes {
     }
 }
 
-class OwnPizza {
+class MyPizza3 {
     public toppings: string[] = [];
 
     constructor(readonly name: string) {}
@@ -22,18 +22,18 @@ class OwnPizza {
     }
 }
 
-const sizesClass = new Sizes(['small', 'medium', 'large']);
+const sizesClass0 = new Sizes0(['small', 'medium', 'large']);
 
 // invoke getter
-console.log(sizesClass.availableSizes);
+console.log(sizesClass0.availableSizes);
 // invoke setter
-sizesClass.availableSizes = ['medium', 'large'];
-console.log(sizesClass.availableSizes);
+sizesClass0.availableSizes = ['medium', 'large'];
+console.log(sizesClass0.availableSizes);
 
 // --------------
 
-const ownPizzaClass = new OwnPizza('Pepperoni');
+const pizzaClass3 = new MyPizza3('Pepperoni');
 
-ownPizzaClass.addToppings('pepperoni');
+pizzaClass3.addToppings('pepperoni');
 
-console.log(ownPizzaClass);
+console.log(pizzaClass3);

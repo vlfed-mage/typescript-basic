@@ -1,4 +1,4 @@
-class MyOwnPizza {
+class MyPizza2 {
     public toppings: string[] = [];
 
     // constructor(public name: string) {}
@@ -9,9 +9,9 @@ class MyOwnPizza {
     }
 }
 
-const pizzaOwnClass = new MyOwnPizza('Pepperoni');
+const pizzaClass2 = new MyPizza2('Pepperoni');
 
-pizzaOwnClass.addToppings('pepperoni');
+pizzaClass2.addToppings('pepperoni');
 // pizzaOwnClass.name = 'changed name'; // allow to do this only for public members
 
-console.log(pizzaOwnClass);
+console.log(pizzaClass2);
