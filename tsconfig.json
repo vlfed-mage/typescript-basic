@@ -4,9 +4,10 @@
     "module": "commonjs",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "strict": true, // includes strictNullChecks and other
+//  "strict": true, // includes strictNullChecks and other
 //  "strictNullChecks": true,
     "skipLibCheck": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "noImplicitThis": true
   }
 }
