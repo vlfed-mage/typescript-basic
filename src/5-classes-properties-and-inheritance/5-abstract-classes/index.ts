@@ -1,4 +1,4 @@
-abstract class SizesAbstractClass {
+abstract class Sizes2 {
     constructor(public sizes: string[]) {}
 
     set availableSizes(sizes: string[]) {
@@ -12,9 +12,9 @@ abstract class SizesAbstractClass {
     }
 }
 
-// new SizesAbstractClass(['small']); // Cannot create an instance of an abstract class.
+// new Sizes2(['small']); // Cannot create an instance of an abstract class.
 
-class MyOwnPizzaClass extends SizesAbstractClass {
+class MyPizza5 extends Sizes2 {
     // inheritance
     public toppings: string[] = [];
 
@@ -27,9 +27,9 @@ class MyOwnPizzaClass extends SizesAbstractClass {
     }
 }
 
-const myOwnClassPizza = new MyOwnPizzaClass('Pepperoni', ['small', 'medium', 'large']);
+const pizzaClass5 = new MyPizza5('Pepperoni', ['small', 'medium', 'large']);
 
-myOwnClassPizza.addToppings('pepperoni');
-console.log(myOwnClassPizza.availableSizes);
+pizzaClass5.addToppings('pepperoni');
+console.log(pizzaClass5.availableSizes);
 
-console.log(myOwnClassPizza);
+console.log(pizzaClass5);

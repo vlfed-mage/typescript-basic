@@ -1,4 +1,4 @@
-class SizesClass {
+class Sizes1 {
     constructor(public sizes: string[]) {}
 
     set availableSizes(sizes: string[]) {
@@ -12,7 +12,7 @@ class SizesClass {
     }
 }
 
-class OwnPizzaClass extends SizesClass {
+class MyPizza4 extends Sizes1 {
     // inheritance
     public toppings: string[] = [];
 
@@ -25,9 +25,9 @@ class OwnPizzaClass extends SizesClass {
     }
 }
 
-const ownClassPizza = new OwnPizzaClass('Pepperoni', ['small', 'medium', 'large']);
+const pizzaClass4 = new MyPizza4('Pepperoni', ['small', 'medium', 'large']);
 
-ownClassPizza.addToppings('pepperoni');
-console.log(ownClassPizza.availableSizes);
+pizzaClass4.addToppings('pepperoni');
+console.log(pizzaClass4.availableSizes);
 
-console.log(ownClassPizza);
+console.log(pizzaClass4);

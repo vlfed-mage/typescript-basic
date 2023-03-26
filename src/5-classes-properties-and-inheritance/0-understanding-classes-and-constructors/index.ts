@@ -1,4 +1,4 @@
-// function MyPizza(name: string) {
+// function MyPizza0(name: string) {
 //     this.name = name;
 //     this.toppings = [];
 // }
@@ -7,13 +7,13 @@
 //     this.toppings.push(topping);
 // };
 //
-// const pizzaClass = new MyPizza('Pepperoni');
+// const pizzaClass0 = new MyPizza0('Pepperoni');
 //
-// pizzaClass.addToppings('pepperoni');
+// pizzaClass0.addToppings('pepperoni');
 //
-// console.log(pizzaClass);
+// console.log(pizzaClass0);
 
-class MyPizza {
+class MyPizza0 {
     name: string;
     toppings: string[] = [];
 
@@ -26,8 +26,8 @@ class MyPizza {
     }
 }
 
-const pizzaClass = new MyPizza('Pepperoni');
+const pizzaClass0 = new MyPizza0('Pepperoni');
 
-pizzaClass.addToppings('pepperoni');
+pizzaClass0.addToppings('pepperoni');
 
-console.log(pizzaClass);
+console.log(pizzaClass0);

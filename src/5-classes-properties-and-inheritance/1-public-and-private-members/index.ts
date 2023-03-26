@@ -1,4 +1,4 @@
-class MyNewPizza {
+class MyPizza1 {
     public toppings: string[] = [];
 
     constructor(private name: string) {} // in typescript, you can do like this
@@ -13,8 +13,8 @@ class MyNewPizza {
     }
 }
 
-const pizzaNewClass = new MyNewPizza('Pepperoni');
+const pizzaClass1 = new MyPizza1('Pepperoni');
 
-pizzaNewClass.addToppings('pepperoni');
+pizzaClass1.addToppings('pepperoni');
 
-console.log(pizzaNewClass);
+console.log(pizzaClass1);
