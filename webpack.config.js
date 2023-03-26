@@ -3,7 +3,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     mode: 'development',
-    entry: './src/app.ts',
+    // entry: './src/7-understanding-and-typing-this/0-a-this-keyword-primer/index.ts',
+    // entry: './src/7-understanding-and-typing-this/1-exploring-this-with-call-apply-and-bind/index.ts',
+    // entry: './src/7-understanding-and-typing-this/2-arrow-functions-and-lexical-scope/index.ts',
+    entry: './src/7-understanding-and-typing-this/3-typing-this-and-no-implicit-this/index.ts',
     module: {
         rules: [
             {
