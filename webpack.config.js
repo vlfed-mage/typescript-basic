@@ -9,7 +9,8 @@ module.exports = {
     // entry: './src/7-understanding-and-typing-this/3-typing-this-and-no-implicit-this/index.ts',
 
     // entry: './src/8-type-queries/0-typeof-type-queries/index.ts',
-    entry: './src/8-type-queries/1-keyof-index-type-queries/index.ts',
+    // entry: './src/8-type-queries/1-keyof-index-type-queries/index.ts',
+    entry: './src/8-type-queries/2-keyof-generics-and-lookup-types/index.ts',
     module: {
         rules: [
             {
