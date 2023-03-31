@@ -13,7 +13,8 @@ module.exports = {
     // entry: './src/8-type-queries/2-keyof-generics-and-lookup-types/index.ts',
 
     // entry: './src/9-mapped-types/0-readonly-mapped-type/index.ts',
-    entry: './src/9-mapped-types/1-partial-mapped-type/index.ts',
+    // entry: './src/9-mapped-types/1-partial-mapped-type/index.ts',
+    entry: './src/9-mapped-types/2-required-mapped-type-and-modifiers/index.ts',
 
     module: {
         rules: [
