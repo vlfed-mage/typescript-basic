@@ -7,7 +7,9 @@ module.exports = {
     // entry: './src/7-understanding-and-typing-this/1-exploring-this-with-call-apply-and-bind/index.ts',
     // entry: './src/7-understanding-and-typing-this/2-arrow-functions-and-lexical-scope/index.ts',
     // entry: './src/7-understanding-and-typing-this/3-typing-this-and-no-implicit-this/index.ts',
-    entry: './src/8-type-queries/0-typeof-type-queries/index.ts',
+
+    // entry: './src/8-type-queries/0-typeof-type-queries/index.ts',
+    entry: './src/8-type-queries/1-keyof-index-type-queries/index.ts',
     module: {
         rules: [
             {
