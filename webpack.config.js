@@ -14,7 +14,8 @@ module.exports = {
 
     // entry: './src/9-mapped-types/0-readonly-mapped-type/index.ts',
     // entry: './src/9-mapped-types/1-partial-mapped-type/index.ts',
-    entry: './src/9-mapped-types/2-required-mapped-type-and-modifiers/index.ts',
+    // entry: './src/9-mapped-types/2-required-mapped-type-and-modifiers/index.ts',
+    entry: './src/9-mapped-types/3-pick-mapped-type/index.ts',
 
     module: {
         rules: [
