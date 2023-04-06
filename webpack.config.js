@@ -19,7 +19,8 @@ module.exports = {
     // entry: './src/9-mapped-types/4-record-mapped-type/index.ts',
 
     // entry: './src/10-exploring-type-guards/0-typeof-and-type-guards/index.ts',
-    entry: './src/10-exploring-type-guards/1-instanceof-and-type-guards/index.ts',
+    // entry: './src/10-exploring-type-guards/1-instanceof-and-type-guards/index.ts',
+    entry: './src/10-exploring-type-guards/2-user-defined-type-guards/index.ts',
 
     module: {
         rules: [
