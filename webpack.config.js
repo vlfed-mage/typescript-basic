@@ -28,8 +28,8 @@ module.exports = {
     // entry: './src/11-advanced-types-and-practices/2-interfaces-vs-type-aliases/index.ts',
     // entry: './src/11-advanced-types-and-practices/3-interfaces-vs-classes/index.ts',
 
-    entry: './src/12-generics-and-overloads/0-function-generics/index.ts',
-    // entry: './src/12-generics-and-overloads/1-function-overloads/index.ts',
+    // entry: './src/12-generics-and-overloads/0-function-generics/index.ts',
+    entry: './src/12-generics-and-overloads/1-function-overloads/index.ts',
 
     module: {
         rules: [
