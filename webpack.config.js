@@ -20,7 +20,8 @@ module.exports = {
 
     // entry: './src/10-exploring-type-guards/0-typeof-and-type-guards/index.ts',
     // entry: './src/10-exploring-type-guards/1-instanceof-and-type-guards/index.ts',
-    entry: './src/10-exploring-type-guards/2-user-defined-type-guards/index.ts',
+    // entry: './src/10-exploring-type-guards/2-user-defined-type-guards/index.ts',
+    entry: './src/10-exploring-type-guards/3-literal-type-guards-and-in-operator/index.ts',
 
     module: {
         rules: [
