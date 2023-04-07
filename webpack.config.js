@@ -23,7 +23,8 @@ module.exports = {
     // entry: './src/10-exploring-type-guards/2-user-defined-type-guards/index.ts',
     // entry: './src/10-exploring-type-guards/3-literal-type-guards-and-in-operator/index.ts',
 
-    entry: './src/11-advanced-types-and-practices/0-intersection-types/index.ts',
+    // entry: './src/11-advanced-types-and-practices/0-intersection-types/index.ts',
+    entry: './src/11-advanced-types-and-practices/1-discriminated-tagged-unions/index.ts',
 
     module: {
         rules: [
