@@ -25,7 +25,8 @@ module.exports = {
 
     // entry: './src/11-advanced-types-and-practices/0-intersection-types/index.ts',
     // entry: './src/11-advanced-types-and-practices/1-discriminated-tagged-unions/index.ts',
-    entry: './src/11-advanced-types-and-practices/2-interfaces-vs-type-aliases/index.ts',
+    // entry: './src/11-advanced-types-and-practices/2-interfaces-vs-type-aliases/index.ts',
+    entry: './src/11-advanced-types-and-practices/3-interfaces-vs-classes/index.ts',
 
     module: {
         rules: [
