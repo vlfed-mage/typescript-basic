@@ -15,10 +15,10 @@ type TypeArtist = {
     name: string;
 } & Item;
 
-type TypeArtist = {
-    // but can't do this
-    // ...
-};
+// type TypeArtist = {
+//     // but can't do this
+//     // ...
+// };
 
 const newArtist: InterfaceArtist = {
     name: 'ABC',
